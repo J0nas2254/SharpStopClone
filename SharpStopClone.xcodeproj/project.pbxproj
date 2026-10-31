@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9940C6E0CFDA40C18A29527 /* SharpStopCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3400DEC5401515C87F584AC8 /* SharpStopCloneApp.swift */;};
+		EA9311CD6F0323EA64236B2B /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0FB5D9624EFA9D6428A97F /* AppSettings.swift */;};
+		EAA2959315250E957F4E22C9 /* OpticsCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A272380FDD614D56DB529BF /* OpticsCalculator.swift */;};
+		56514A05CAD7F0C28C0B7E83 /* SensorFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C64C5A0E0FA06FAD9BED22B /* SensorFormat.swift */;};
+		D62E5C0DE92BD9E9569DB7C0 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA710F42EF552CA29F7D14EF /* Camera.swift */;};
+		796CA47B699E869A504239D9 /* Lens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09257FD0A769A17D753E889B /* Lens.swift */;};
+		47F4689C6D76F92CD1F2C589 /* EquipmentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AFAF7993B679EA6E021FBC /* EquipmentManager.swift */;};
+		A3AB9C6A70B5C417D5C301D0 /* DepthOfFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325D62305E02982A40A7FFE0 /* DepthOfFieldView.swift */;};
+		B84C916B4A6F5CCE0ED17FA3 /* FocusStackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C1EAC3075B546024F40EF4 /* FocusStackingView.swift */;};
+		A6B8EA11A9B3ACE7406185DC /* AstroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59410658CBE5E11FB37E97C /* AstroView.swift */;};
+		6FCBFB79FFF42E0359DB408C /* EquipmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE0003E2C6DEEA18308FE96 /* EquipmentView.swift */;};
+		6C028C2B83B4BDE5FEDEB8BC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD65E60DA00F44B2D346D9E3 /* SettingsView.swift */;};
+		294EF62803186934083225EF /* OpticsCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBA7B7157803C21D466D34E /* OpticsCalculatorTests.swift */;};
+		F1A2B3C4D5E6F789ND /* NDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A2B3C4D5E6F789 /* NDView.swift */;};
+		9284A5B6C7D8E9F0FOV /* FieldOfViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9284A5B6C7D8E9F0 /* FieldOfViewView.swift */;};
+		F1A2B3C4D5E6NDView /* NDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A2B3C4D5E6NDView /* NDView.swift */;};
+		G2H3I4J5K6L7FieldOfViewView /* FieldOfViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = G2H3I4J5K6L7FieldOfViewView /* FieldOfViewView.swift */;};
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9CA66683FF22D7B8CC65928 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C13732C8E715C9BEE4FA51C9;
+			remoteInfo = SharpStopClone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3400DEC5401515C87F584AC8 /* SharpStopCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharpStopClone/SharpStopCloneApp.swift"; sourceTree = SOURCE_ROOT;};
+		9E0FB5D9624EFA9D6428A97F /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharpStopClone/AppSettings.swift"; sourceTree = SOURCE_ROOT;};
+		9A272380FDD614D56DB529BF /* OpticsCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharpStopClone/OpticsCalculator.swift"; sourceTree = SOURCE_ROOT;};
+		4C64C5A0E0FA06FAD9BED22B /* SensorFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharpStopClone/Models/SensorFormat.swift"; sourceTree = SOURCE_ROOT;};
+		EA710F42EF552CA29F7D14EF /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharpStopClone/Models/Camera.swift"; sourceTree = SOURCE_ROOT;};
+		09257FD0A769A17D753E889B /* Lens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharpStopClone/Models/Lens.swift"; sourceTree = SOURCE_ROOT;};
+		A2AFAF7993B679EA6E021FBC /* EquipmentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharpStopClone/Models/EquipmentManager.swift"; sourceTree = SOURCE_ROOT;};
+		325D62305E02982A40A7FFE0 /* DepthOfFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharpStopClone/Views/DepthOfField/DepthOfFieldView.swift"; sourceTree = SOURCE_ROOT;};
+		20C1EAC3075B546024F40EF4 /* FocusStackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharpStopClone/Views/FocusStacking/FocusStackingView.swift"; sourceTree = SOURCE_ROOT;};
+		E59410658CBE5E11FB37E97C /* AstroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharpStopClone/Views/Astro/AstroView.swift"; sourceTree = SOURCE_ROOT;};
+		3BE0003E2C6DEEA18308FE96 /* EquipmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharpStopClone/Views/Equipment/EquipmentView.swift"; sourceTree = SOURCE_ROOT;};
+		AD65E60DA00F44B2D346D9E3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharpStopClone/Views/Settings/SettingsView.swift"; sourceTree = SOURCE_ROOT;};
+		8FBA7B7157803C21D466D34E /* OpticsCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharpStopClone/SharpStopCloneTests/OpticsCalculatorTests.swift"; sourceTree = SOURCE_ROOT;};
+		8BCD5BC4CDFDF0918087C782 /* SharpStopClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharpStopClone.app; sourceTree = BUILT_PRODUCTS_DIR;};
+		F219C0274590DA45E4BEF1EA /* SharpStopCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharpStopCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR;};
+		86BE5228102BBE430BCEEA46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SharpStopClone/Assets.xcassets; sourceTree = SOURCE_ROOT;};
+			F1A2B3C4D5E6F789 /* NDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharpStopClone/Views/ND/NDView.swift"; sourceTree = SOURCE_ROOT;};
+			9284A5B6C7D8E9F0 /* FieldOfViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharpStopClone/Views/FieldOfView/FieldOfViewView.swift"; sourceTree = SOURCE_ROOT;};
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78AE8C6BEB2A40A6D824CCEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ABF84E55BD30AC2CEF8FC42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E50290A24C49A459B43487C5 = {
+			isa = PBXGroup;
+			children = (
+				3400DEC5401515C87F584AC8 /* SharpStopCloneApp.swift */,
+				9E0FB5D9624EFA9D6428A97F /* AppSettings.swift */,
+				9A272380FDD614D56DB529BF /* OpticsCalculator.swift */,
+				4C64C5A0E0FA06FAD9BED22B /* SensorFormat.swift */,
+				EA710F42EF552CA29F7D14EF /* Camera.swift */,
+				09257FD0A769A17D753E889B /* Lens.swift */,
+				A2AFAF7993B679EA6E021FBC /* EquipmentManager.swift */,
+				325D62305E02982A40A7FFE0 /* DepthOfFieldView.swift */,
+				20C1EAC3075B546024F40EF4 /* FocusStackingView.swift */,
+				E59410658CBE5E11FB37E97C /* AstroView.swift */,
+				3BE0003E2C6DEEA18308FE96 /* EquipmentView.swift */,
+				AD65E60DA00F44B2D346D9E3 /* SettingsView.swift */,
+				86BE5228102BBE430BCEEA46 /* Assets.xcassets */,
+				F1A2B3C4D5E6F789 /* NDView.swift */,
+				9284A5B6C7D8E9F0 /* FieldOfViewView.swift */,
+				BFC937463906E5DB7A02A37C /* SharpStopCloneTests */,
+				328EC33DF3954DC9B83FA285 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFC937463906E5DB7A02A37C /* SharpStopCloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FBA7B7157803C21D466D34E /* OpticsCalculatorTests.swift */,
+			);
+			name = SharpStopCloneTests;
+			sourceTree = "<group>";
+		};
+		328EC33DF3954DC9B83FA285 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BCD5BC4CDFDF0918087C782 /* SharpStopClone.app */,
+				F219C0274590DA45E4BEF1EA /* SharpStopCloneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C13732C8E715C9BEE4FA51C9 /* SharpStopClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A296CF4B7E708AB4E80076A9 /* Build configuration list for PBXNativeTarget "SharpStopClone" */;
+			buildPhases = (
+				971ED9D05B25DB6C4D7680D4 /* Sources */,
+				78AE8C6BEB2A40A6D824CCEE /* Frameworks */,
+				364863F9F2E558B0F50473FC /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = SharpStopClone;
+			productName = SharpStopClone;
+			productReference = 8BCD5BC4CDFDF0918087C782 /* SharpStopClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64BCB755386F844C96A2A5B0 /* SharpStopCloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBD1A4309DD6635F34F23AFF /* Build configuration list for PBXNativeTarget "SharpStopCloneTests" */;
+			buildPhases = (
+				6E431EB0650617AA1756B320 /* Sources */,
+				1ABF84E55BD30AC2CEF8FC42 /* Frameworks */,
+				7DED7670B79BEA8B7480B1FC /* Resources */,
+			);
+			buildRules = ();
+			dependencies = (
+				C58B1D22E6B06406536A4294 /* PBXTargetDependency */,
+			);
+			name = SharpStopCloneTests;
+			productName = SharpStopCloneTests;
+			productReference = F219C0274590DA45E4BEF1EA /* SharpStopCloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				TargetAttributes = {
+					C13732C8E715C9BEE4FA51C9 = {CreatedOnToolsVersion = 16.0;};
+					64BCB755386F844C96A2A5B0 = {CreatedOnToolsVersion = 16.0; TestTargetID = C13732C8E715C9BEE4FA51C9;};
+				};
+			};
+			buildConfigurationList = 41A2CC2D5321B7BB2E956CA5 /* Build configuration list for PBXProject "SharpStopClone" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base, de);
+			mainGroup = E50290A24C49A459B43487C5;
+			productRefGroup = 328EC33DF3954DC9B83FA285 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C13732C8E715C9BEE4FA51C9 /* SharpStopClone */,
+				64BCB755386F844C96A2A5B0 /* SharpStopCloneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		364863F9F2E558B0F50473FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA400DFD4219F700A8EA7668 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DED7670B79BEA8B7480B1FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		971ED9D05B25DB6C4D7680D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9940C6E0CFDA40C18A29527 /* SharpStopCloneApp.swift in Sources */,
+				EA9311CD6F0323EA64236B2B /* AppSettings.swift in Sources */,
+				EAA2959315250E957F4E22C9 /* OpticsCalculator.swift in Sources */,
+				56514A05CAD7F0C28C0B7E83 /* SensorFormat.swift in Sources */,
+				D62E5C0DE92BD9E9569DB7C0 /* Camera.swift in Sources */,
+				796CA47B699E869A504239D9 /* Lens.swift in Sources */,
+				47F4689C6D76F92CD1F2C589 /* EquipmentManager.swift in Sources */,
+				A3AB9C6A70B5C417D5C301D0 /* DepthOfFieldView.swift in Sources */,
+				B84C916B4A6F5CCE0ED17FA3 /* FocusStackingView.swift in Sources */,
+				A6B8EA11A9B3ACE7406185DC /* AstroView.swift in Sources */,
+				6FCBFB79FFF42E0359DB408C /* EquipmentView.swift in Sources */,
+				6C028C2B83B4BDE5FEDEB8BC /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E431EB0650617AA1756B320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				294EF62803186934083225EF /* OpticsCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C58B1D22E6B06406536A4294 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C13732C8E715C9BEE4FA51C9 /* SharpStopClone */;
+			targetProxy = E9CA66683FF22D7B8CC65928 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		89E1FD6268CC0F221A2BE178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E6DE6C99132752C914FEF632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E9B2E96ABC5F6856F2BE79CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sharpstopclone.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A8C91857F674E16E2724F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sharpstopclone.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FCB48D8F88BCDB0ED9FADFD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sharpstopclone.app.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SharpStopClone.app/SharpStopClone";
+				TEST_TARGET_NAME = SharpStopClone;
+			};
+			name = Debug;
+		};
+		942EEBBACD6C88CAE7F29B29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sharpstopclone.app.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SharpStopClone.app/SharpStopClone";
+				TEST_TARGET_NAME = SharpStopClone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41A2CC2D5321B7BB2E956CA5 /* Build configuration list for PBXProject "SharpStopClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (89E1FD6268CC0F221A2BE178 /* Debug */, E6DE6C99132752C914FEF632 /* Release */);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A296CF4B7E708AB4E80076A9 /* Build configuration list for PBXNativeTarget "SharpStopClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (E9B2E96ABC5F6856F2BE79CF /* Debug */, 5A8C91857F674E16E2724F47 /* Release */);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBD1A4309DD6635F34F23AFF /* Build configuration list for PBXNativeTarget "SharpStopCloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (FCB48D8F88BCDB0ED9FADFD7 /* Debug */, 942EEBBACD6C88CAE7F29B29 /* Release */);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}

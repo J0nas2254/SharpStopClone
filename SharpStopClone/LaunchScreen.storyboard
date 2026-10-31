@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Storyboard" version="3.0" toolsVersion="22107" systemVersion="27.0" targetRuntime="iOS.CocoaTouch" propertyAccess="none" useAutolayout="YES" launchScreen="YES">
+	<dependencies>
+		<plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22132"/>
+		<capability name="Safe area guide anchors" minToolsVersion="6.0"/>
+		<capability name="Documents saved in the Xcode 8 or earlier" minToolsVersion="8.0"/>
+	</dependencies>
+	<scenes>
+		<!-- Launch Screen -->
+		<scene sceneID="LAUNCH-001">
+			<objects>
+				<viewController id="LAUNCH-VC" sceneMemberID="viewController">
+					<view key="view" contentMode="scaleToFill" id="LAUNCH-VIEW">
+						<rect key="frame" x="0.0" y="0.0" width="375.0" height="667.0"/>
+						<autoresizingMask key="autoresizingMask" widthSized="YES" heightSized="YES"/>
+						<color key="backgroundColor" systemColor="systemBackgroundColor"/>
+					</view>
+				</viewController>
+			</objects>
+		</scene>
+	</scenes>
+</document>
